@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JavaScript</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="script/script.js" defer></script>
+</head>
+<body>
+     <h1>Inscription</h1>
+
+    <form action="" method="post" id="formulaire">
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" />
+    <div id="erreurNom" class="erreur"></div>
+
+    <label for="email">Email :</label>
+    <input type="text" id="email" name="email" />
+    <div id="erreurEmail" class="erreur"></div>
+
+    <label for="password">Mot de passe :</label>
+    <input type="password" id="password" name="password" />
+    <div id="erreurPassword" class="erreur"></div>
+
+    <button type="submit">S'inscrire</button>
+  </form>
+
+  <div id="message" class="success"></div>
+
+</body>
+</html>
